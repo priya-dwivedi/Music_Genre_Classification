@@ -1,0 +1,37 @@
+site_name: Keras-vis Documentation
+theme: readthedocs
+docs_dir: sources
+repo_url: http://github.com/raghakot/keras-vis
+edit_uri: blob/master/docs/templates
+site_description: 'Documentation for keras-vis, Neural Network Visualization Toolkit.'
+
+extra_javascript:
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
+extra_css:
+  - css/extras.css
+
+markdown_extensions:
+  - mdx_math
+
+pages:
+  - Home: index.md
+  - Visualizations:
+    - Activation Maximization: visualizations/activation_maximization.md
+    - Saliency Maps: visualizations/saliency.md
+    - Class Activation Maps: visualizations/class_activation_maps.md
+  - API Docs:
+    - Visualization: vis.visualization.md
+    - Optimization:
+      - losses: vis.losses.md
+      - regularizers: vis.regularizers.md
+      - optimizer: vis.optimizer.md
+      - callbacks: vis.callbacks.md
+    - Modifiers:
+      - input_modifiers: vis.input_modifiers.md
+      - grad_modifiers: vis.grad_modifiers.md
+      - backprop_modifiers: vis.backprop_modifiers.md
+    - Utils:
+      - utils: vis.utils.utils.md
+    - Backend Specific:
+      - backend: vis.backend.md
