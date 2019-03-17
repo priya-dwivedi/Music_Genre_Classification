@@ -12,7 +12,7 @@ Download FMA Small from: https://github.com/mdeff/fma
 Raw data is 8GB and consists of audio from 8000 songs + metadata with features like MFCC
 
 ## Preprocessed data
-The raw audio has been converted to mel-spectograms and pickled. There are 3 files for training, validation and testing on the drive link - https://drive.google.com/drive/u/0/folders/1KyHjMzsz1X7QzNx5kvhXVBvDJk8JFNKu
+The raw audio has been converted to mel-spectograms and pickled. There are 3 files for training, validation and testing on the drive link -https://drive.google.com/drive/u/0/folders/1-PTQBiz6E53uUa9LebHjds_ZQesRHEqx
 
 You only need these files for running any of the notebooks with the neural networks. 
 
